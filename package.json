@@ -1,0 +1,27 @@
+{
+  "name": "tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "firebase-admin": "^5.6.0",
+    "jquery": "^3.2.1",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonelLopez84/tracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonelLopez84/tracking/issues"
+  },
+  "homepage": "https://github.com/LeonelLopez84/tracking#readme"
+}

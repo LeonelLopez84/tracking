@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dispactch</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<style>
+		#datos{
+			overflow-y: auto;
+			height: 100vh;
+		}
+		#map{
+			height: 100vh;
+		}
+
+	</style>
+</head>
+<body>
+ <div class="container-fluid">
+ 	<div class="row">
+ 		<div id="datos" class="col-sm-4 col-md-4">
+ 			Posiciones
+			<ul id="lista"></ul>
+		</div>
+ 		<div class="col-sm-8 col-md-8">
+			<div id="map"></div>
+		</div>
+	</div>
+</div>
+	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="public/js/firebase.js"></script>
+	<script src="public/js/dispatch.js"></script>
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD31mZpBu3xa711oyv63dMR4Rcdt5tei50&callback=initMap"></script>
+</body>
+</html>
